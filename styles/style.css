@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 1em;	
+}
+
+div.floater {
+	position: absolute;
+	width: 10em;
+	z-index: 50;
+	background: white;
+	background-image: url('images/help_arrow_small.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	
+	padding: 0.4em;
+	border: 2px solid black;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 5px 5px 5px 1px rgba(1, 1, 1, 0.5);
+	-moz-box-shadow: 5px 5px 5px 1px rgba(1, 1, 1, 0.5);
+	box-shadow: 5px 5px 5px 1px rgba(1, 1, 1, 0.5);
+}
+
+img.helparrow {
+	position: absolute;
+}
